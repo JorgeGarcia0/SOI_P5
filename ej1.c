@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*naliza un proceso que incluya algunas variables globales, un array global, algunas variables
 locales a main() y un array 3D de 10 × 10 × 10 enteros también local. Muestra en hexadecimal
 la dirección de los punteros a esas variables y de la función main. Identifica las regiones del
@@ -45,3 +46,5 @@ void main() {
     scanf("%*c"); // Pausa para ver las direcciones antes de imprimir el orden
 
 }
+=======
+>>>>>>> 15a8d19 (.)

@@ -42,6 +42,7 @@ int main () {
     
     } else { // Proceso padre 
         wait(NULL); // Espera a que el proceso hijo termine 
+        printf("Proceso hijo terminado.\n");
         exit(EXIT_SUCCESS); 
     } 
 }

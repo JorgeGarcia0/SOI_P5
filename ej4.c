@@ -1,7 +1,5 @@
+//Codigo de Jorge García y Antón Jaureguizar
 
-/*Crea un proceso hijo que incluya un malloc y a continuación cambie su imagen con execv a un código 
-cualquiera creado por ti. Compara los mapas de memoria del proceso padre y el proceso hijo antes y 
-después del malloc y comprueba como el cambio de imagen afecta al mapa de memoria del proceso hijo.*/
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <math.h> 

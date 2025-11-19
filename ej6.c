@@ -1,8 +1,4 @@
-/*Crea un programa con las siguientes características:
-• Crea una variable global y una variable local al main() de tipo entero.
-• Crea dos hilos que reciben como parámetro la variable local del hilo principal.
-• Cada hilo define una nueva variable local y la actualiza con el producto de la variable global
-y el parámetro recibido por el hilo*/
+//Codigo de Jorge García y Antón Jaureguizar
 
 #include <stdio.h>
 #include <stdlib.h>

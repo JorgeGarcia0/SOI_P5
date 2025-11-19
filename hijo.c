@@ -1,3 +1,5 @@
+//Codigo de Jorge García y Antón Jaureguizar
+
 #include <stdio.h>
 #include <unistd.h>
 

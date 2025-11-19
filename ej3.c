@@ -1,23 +1,4 @@
-/*Analiza un proceso que incluya llamadas al sistema malloc y free (comprueba que las llamadas
-han tenido éxito). Examina el mapa de memoria antes y después de la ejecución de malloc, e
-identifica la zona de memoria dinámica que has creado para diferentes tamaños de la reserva.
-Comprueba si con free se libera toda la zona reservada por el malloc. Haz la misma prueba si
-luego se ejecuta otro malloc. Ten en cuenta los consejos comentados más adelante para completar
-el informe
-
- Comprueba que se crean zonas diferentes cuando se reserva poca o mucha memoria con malloc.
-• Comprueba si al hacer dos llamadas a malloc se crean zonas de memoria separadas para cada
-malloc considerando diferentes tamaños de memoria.
-• Comprueba que ocurre al hacer una reserva de memoria con la llamada al sistema alloca frente
-a la utilización de malloc.
-• Comprueba que ocurre si se reserva memoria con malloc y posteriormente se hace un realloc.
-Ajusta el tamaño del realloc para comprobar que la zona de memoria reservada puede crecer.
-Comprueba si la respuesta depende de la cantidad de memoria reservada.
-• Finalmente, usa la función malloc para reservar espacio para 1000 doubles. Aplica la función
-sizeof al puntero devuelto por malloc. ¿Qué es lo que proporciona? Comprueba que sucede si
-se cambia la dirección del puntero devuelto por malloc (por ejemplo, incrementándolo) antes de
-llamar a free.
-*/
+//Codigo de Jorge García y Antón Jaureguizar
 
 #include <stdio.h>
 #include <stdlib.h>

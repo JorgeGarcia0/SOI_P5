@@ -1,7 +1,4 @@
-/*Analiza un proceso con dos funciones f1 y f2. Cada una de ellas recibe como parámetro un número
-entero y realiza la siguiente tarea: utiliza una variable entera local y muestra en el terminal la
-dirección del parámetro recibido y de la variable local. Identifica donde se encuentran los códigos
-de las funciones, los parámetros y las variables locales de la función en el mapa de memoria.*/
+//Codigo de Jorge García y Antón Jaureguizar
 
 #include <stdio.h>
 #include <stdlib.h>
